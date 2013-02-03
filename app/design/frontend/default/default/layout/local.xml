@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<layout version="0.0.1">
+    <customer_account>
+        <reference name="customer_account_navigation">
+            <action method="removeLinkByName"><name>account_edit</name></action>
+            <action method="removeLinkByName"><name>address_book</name></action>
+            <action method="removeLinkByName"><name>orders</name></action>
+            <action method="removeLinkByName"><name>billing_agreements</name></action>
+            <action method="removeLinkByName"><name>recurring_profiles</name></action>
+            <action method="removeLinkByName"><name>reviews</name></action>
+            <action method="removeLinkByName"><name>tags</name></action>
+            <action method="removeLinkByName"><name>wishlist</name></action>
+            <action method="removeLinkByName"><name>downloadable_products</name></action>
+            <action method="removeLinkByName"><name>newsletter</name></action>
+            <action method="removeLinkByName"><name>OAuth Customer Tokens</name></action>
+            <action method="addLink">
+                <name>checkout</name>
+                <path>checkout/</path>
+                <label>Zur Kasse</label>
+                <urlParams />
+            </action>
+            <action method="addLink">
+                <name>matthias-zeis-com</name>
+                <path>external/matthias-zeis-com/</path>
+                <label>matthias-zeis.com</label>
+                <urlParams />
+            </action>
+        </reference>
+    </customer_account>
+</layout>

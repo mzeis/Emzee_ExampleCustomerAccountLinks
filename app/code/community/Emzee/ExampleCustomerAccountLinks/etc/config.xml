@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Emzee_ExampleCustomerAccountLinks>
+            <version>0.0.1</version>
+        </Emzee_ExampleCustomerAccountLinks>
+    </modules>
+    <global>
+        <blocks>
+            <customer>
+                <rewrite>
+                    <account_navigation>Emzee_ExampleCustomerAccountLinks_Block_Account_Navigation</account_navigation>
+                </rewrite>
+            </customer>
+        </blocks>
+    </global>
+</config>

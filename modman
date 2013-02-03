@@ -1,0 +1,3 @@
+app/code/community/Emzee/ExampleCustomerAccountLinks/ app/code/community/Emzee/ExampleCustomerAccountLinks/
+app/design/frontend/default/default/layout/local.xml app/design/frontend/default/default/layout/local.xml
+app/etc/modules/Emzee_ExampleCustomerAccountLinks.xml app/etc/modules/Emzee_ExampleCustomerAccountLinks.xml
